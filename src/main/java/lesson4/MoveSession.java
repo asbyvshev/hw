@@ -3,6 +3,8 @@ package lesson4;
 import javax.persistence.*;
 import java.util.Date;
 
+@Entity
+@Table(name = "move_session")
 public class MoveSession {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
